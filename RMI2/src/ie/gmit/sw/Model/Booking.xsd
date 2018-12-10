@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/Booking" xmlns:tns="http://www.example.org/Booking" elementFormDefault="qualified">
+	<element name="Order">
+		<complexType>
+			<sequence>
+				<element name="OrderID" type="int"></element>
+				<element name="CustID" type="int"></element>
+				<element name="HireDate" type="string"></element>
+				<element name="ReturnDate" type="string"></element>
+				<element name="CarID" type="int"></element>
+				<element name="CustomerDetails" type="Customer"></element>
+			</sequence>
+		</complexType>
+
+	</element>
+</schema>
