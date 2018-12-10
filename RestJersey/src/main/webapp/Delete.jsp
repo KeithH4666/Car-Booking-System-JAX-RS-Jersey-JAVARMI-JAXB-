@@ -1,6 +1,6 @@
 <html>
 <body>
-	<h1>JAX-RS @FormQuery Testing</h1>
+	<h1>Delete Order</h1>
 
 	<form action="webapi/myresource/DeleteOrder" method="post">
 		<p>
